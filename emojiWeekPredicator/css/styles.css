@@ -1,0 +1,44 @@
+body{
+    background-color: #000000;
+    color:white;
+    font-size:20px;
+}
+
+.container span{
+    width:200px;
+    background-color: white;
+    color:black;
+    font-size:200%;
+    text-align:center;
+    display:inline-block;
+    margin:15px;
+    border:20px solid rgb(240,240,113,.78);
+    border-radius: 10px;
+}
+
+.container span p{
+    font-size: 50%;
+    font-style: italic;
+}
+
+.container span img{
+    width:100%;
+    animation: fadeIn linear 2s;
+}
+
+.color-bad{
+    color:red !important;
+}
+
+.color-good{
+    color:darkgreen !important;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
