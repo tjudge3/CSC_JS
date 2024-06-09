@@ -1,2 +1,2 @@
-# CS340
+# CSC JS
 JS Learning Projects
